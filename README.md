@@ -42,4 +42,40 @@ Run `Main.java` to test all structures. It demonstrates:
 ---
 
 ## 📚 Example Output
+=== MyArrayList === A X C
+
+=== MyLinkedList === 10 15 30
+
+=== MyStack === Top: Three Pop: Three Top after pop: Two
+
+=== MyQueue === Peek: First Dequeue: First Peek after dequeue: Second
+
+=== MyMinHeap === Peek min: 10 Poll min: 10 Peek after poll: 20
+
+---
+
+## 👨‍💻 Developer Notes
+
+- No external collections were used  
+- Fully generic (`<T>`)  
+- Iterators implemented manually  
+- `MyMinHeap` uses `Comparable<T>` for ordering  
+
+---
+
+## ✅ Tasks Completed
+
+- [x] Implement `MyList<T>` interface
+- [x] Create `MyArrayList<T>` and `MyLinkedList<T>`
+- [x] Build `MyStack`, `MyQueue`, `MyMinHeap`
+- [x] Create tests in `Main.java`
+- [x] Add documentation
+
+---
+
+## 📌 To Do
+
+- [ ] Improve edge case handling in lists
+- [ ] Add sort support via `Comparator<T>`
+
 
