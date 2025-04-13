@@ -71,11 +71,6 @@ Run `Main.java` to test all structures. It demonstrates:
 - [x] Create tests in `Main.java`
 - [x] Add documentation
 
----
 
-## 📌 To Do
-
-- [ ] Improve edge case handling in lists
-- [ ] Add sort support via `Comparator<T>`
 
 
